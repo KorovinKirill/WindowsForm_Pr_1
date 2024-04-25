@@ -34,6 +34,8 @@
             this.FileMenuTools = new System.Windows.Forms.ToolStripMenuItem();
             this.рассчитатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.программаРасчётыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Razdelenie = new System.Windows.Forms.ToolStripSeparator();
+            this.DeleteMenuTools = new System.Windows.Forms.ToolStripMenuItem();
             this.ExitMenuTools = new System.Windows.Forms.ToolStripMenuItem();
             this.ReferenceMenuTools = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutProgrammMenuTools = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,8 +55,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.Razdelenie = new System.Windows.Forms.ToolStripSeparator();
-            this.DeleteMenuTools = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -104,7 +104,6 @@
             this.FileMenuTools.Name = "FileMenuTools";
             this.FileMenuTools.Size = new System.Drawing.Size(48, 20);
             this.FileMenuTools.Text = "Файл";
-            this.FileMenuTools.Click += new System.EventHandler(this.FileMenuTools_Click);
             // 
             // рассчитатьToolStripMenuItem
             // 
@@ -119,11 +118,24 @@
             this.программаРасчётыToolStripMenuItem.Name = "программаРасчётыToolStripMenuItem";
             this.программаРасчётыToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.программаРасчётыToolStripMenuItem.Text = "Программа \"Расчёты\"";
+            this.программаРасчётыToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
+            // 
+            // Razdelenie
+            // 
+            this.Razdelenie.Name = "Razdelenie";
+            this.Razdelenie.Size = new System.Drawing.Size(132, 6);
+            // 
+            // DeleteMenuTools
+            // 
+            this.DeleteMenuTools.Name = "DeleteMenuTools";
+            this.DeleteMenuTools.Size = new System.Drawing.Size(135, 22);
+            this.DeleteMenuTools.Text = "Очистить";
+            this.DeleteMenuTools.Click += new System.EventHandler(this.DeleteMenuTools_Click);
             // 
             // ExitMenuTools
             // 
             this.ExitMenuTools.Name = "ExitMenuTools";
-            this.ExitMenuTools.Size = new System.Drawing.Size(180, 22);
+            this.ExitMenuTools.Size = new System.Drawing.Size(135, 22);
             this.ExitMenuTools.Text = "Выход";
             this.ExitMenuTools.Click += new System.EventHandler(this.ExitMenuTools_Click);
             // 
@@ -171,7 +183,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(68, 20);
             this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label5
             // 
@@ -229,7 +240,6 @@
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(68, 20);
             this.textBox2.TabIndex = 3;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label7
             // 
@@ -299,19 +309,6 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(670, 383);
             this.tabControl1.TabIndex = 6;
-            // 
-            // Razdelenie
-            // 
-            this.Razdelenie.Name = "Razdelenie";
-            this.Razdelenie.Size = new System.Drawing.Size(177, 6);
-            this.Razdelenie.Click += new System.EventHandler(this.Razdelenie_Click);
-            // 
-            // DeleteMenuTools
-            // 
-            this.DeleteMenuTools.Name = "DeleteMenuTools";
-            this.DeleteMenuTools.Size = new System.Drawing.Size(180, 22);
-            this.DeleteMenuTools.Text = "Очистить";
-            this.DeleteMenuTools.Click += new System.EventHandler(this.DeleteMenuTools_Click);
             // 
             // Form1
             // 

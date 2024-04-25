@@ -9,3 +9,14 @@ D:\Users\1213-13\Documents\2-ИСП\Разработка КИС\Коровин\W
 D:\Users\1213-13\Documents\2-ИСП\Разработка КИС\Коровин\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1(Korovin).exe
 D:\Users\1213-13\Documents\2-ИСП\Разработка КИС\Коровин\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1(Korovin).pdb
 D:\Users\1213-13\Documents\2-ИСП\Разработка КИС\Коровин\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1_Korovin_.Form2.resources
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\bin\Debug\WindowsFormsApp_Pr_1(Korovin).exe.config
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\bin\Debug\WindowsFormsApp_Pr_1(Korovin).exe
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\bin\Debug\WindowsFormsApp_Pr_1(Korovin).pdb
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1(Korovin).csproj.AssemblyReference.cache
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1_Korovin_.Form1.resources
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1_Korovin_.Form2.resources
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1_Korovin_.Properties.Resources.resources
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1(Korovin).csproj.GenerateResource.cache
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1(Korovin).csproj.CoreCompileInputs.cache
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1(Korovin).exe
+D:\Projects VS\Разработка КИС\WindowsForm_Pr_1-main\WindowsFormsApp_Pr_1(Korovin)\obj\Debug\WindowsFormsApp_Pr_1(Korovin).pdb

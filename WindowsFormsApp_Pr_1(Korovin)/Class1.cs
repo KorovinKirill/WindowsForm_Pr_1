@@ -8,19 +8,34 @@ namespace WindowsFormsApp_Pr_1_Korovin_
 {
     internal class MedicalInstitution
     {
-        uint time = 8;
-        uint peopleInHour = 4;
+        int time = 8;
+        int peopleInHour = 4;
+        int a;
 
-        public void MedicalInstitution1(uint time, uint peopleInHour)
+        public void MedicalInstitution1(int a)
         {
-            this.time = time;
-            this.peopleInHour = peopleInHour;
+            this.a = a;
         }
 
-        public uint MakeAnAppointment(uint a)
+        public int MakeAnAppointment(int a)
         {
-            uint accept = time * peopleInHour;
+            int accept;
+            if (a > 32)
+            {
+                accept = time * peopleInHour;
+            }
+            else
+            {
+                accept = a;
+            }
             return accept;
+        }
+        public int DoNotMakeAnAppointment(int a)
+        {
+            int notAccept;
+            if (a <= 32) notAccept = 0;
+            else notAccept = (time * peopleInHour - a) * (-1);
+            return notAccept;
         }
     }
 }
