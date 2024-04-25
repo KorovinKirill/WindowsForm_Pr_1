@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2024-04-23T09:30:15.477Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="BYRqXpbR_dbCQayYcIL5" version="24.2.8" type="device">
+  <diagram name="Страница — 1" id="hVWGoxqhxvgRYhH3cD5Q">
+    <mxGraphModel dx="2026" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_8kPzmlkz0cCIGfy4Fdh-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Jt5670IHXcskup61tgXa-1" target="Jt5670IHXcskup61tgXa-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8kPzmlkz0cCIGfy4Fdh-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Jt5670IHXcskup61tgXa-1" target="Jt5670IHXcskup61tgXa-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8kPzmlkz0cCIGfy4Fdh-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Jt5670IHXcskup61tgXa-1" target="Jt5670IHXcskup61tgXa-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8kPzmlkz0cCIGfy4Fdh-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Jt5670IHXcskup61tgXa-1" target="_8kPzmlkz0cCIGfy4Fdh-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jt5670IHXcskup61tgXa-1" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="240" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jt5670IHXcskup61tgXa-2" value="Справка" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Jt5670IHXcskup61tgXa-3" value="Выход" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Jt5670IHXcskup61tgXa-4" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="150" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_8kPzmlkz0cCIGfy4Fdh-1" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="40" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
