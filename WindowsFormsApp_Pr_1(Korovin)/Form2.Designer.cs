@@ -121,19 +121,16 @@
             // 
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
-            this.fileSystemWatcher1.Changed += new System.IO.FileSystemEventHandler(this.fileSystemWatcher1_Changed);
             // 
             // fileSystemWatcher2
             // 
             this.fileSystemWatcher2.EnableRaisingEvents = true;
             this.fileSystemWatcher2.SynchronizingObject = this;
-            this.fileSystemWatcher2.Changed += new System.IO.FileSystemEventHandler(this.fileSystemWatcher2_Changed);
             // 
             // fileSystemWatcher3
             // 
             this.fileSystemWatcher3.EnableRaisingEvents = true;
             this.fileSystemWatcher3.SynchronizingObject = this;
-            this.fileSystemWatcher3.Changed += new System.IO.FileSystemEventHandler(this.fileSystemWatcher3_Changed);
             // 
             // Form2
             // 
@@ -148,6 +145,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximumSize = new System.Drawing.Size(816, 489);
+            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "Form2";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

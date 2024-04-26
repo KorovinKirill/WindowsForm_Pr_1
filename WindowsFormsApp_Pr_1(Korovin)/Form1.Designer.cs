@@ -110,7 +110,7 @@
             this.рассчитатьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.программаРасчётыToolStripMenuItem});
             this.рассчитатьToolStripMenuItem.Name = "рассчитатьToolStripMenuItem";
-            this.рассчитатьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.рассчитатьToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.рассчитатьToolStripMenuItem.Text = "Рассчитать";
             // 
             // программаРасчётыToolStripMenuItem
@@ -173,13 +173,13 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(6, 51);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(281, 13);
+            this.label6.Size = new System.Drawing.Size(275, 13);
             this.label6.TabIndex = 3;
-            this.label6.Text = "Рабочий день врача                                                 8 час";
+            this.label6.Text = "Рабочий день врача                                               8 час";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(220, 70);
+            this.textBox1.Location = new System.Drawing.Point(213, 72);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(68, 20);
             this.textBox1.TabIndex = 2;
@@ -198,9 +198,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(6, 27);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(282, 13);
+            this.label4.Size = new System.Drawing.Size(276, 13);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Врач может принять                                         4 чел/час";
+            this.label4.Text = "Врач может принять                                       4 чел/час";
             // 
             // groupBox2
             // 

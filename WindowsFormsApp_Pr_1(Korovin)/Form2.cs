@@ -17,21 +17,6 @@ namespace WindowsFormsApp_Pr_1_Korovin_
             InitializeComponent();
         }
 
-        private void fileSystemWatcher1_Changed(object sender, System.IO.FileSystemEventArgs e)
-        {
-
-        }
-
-        private void fileSystemWatcher2_Changed(object sender, System.IO.FileSystemEventArgs e)
-        {
-
-        }
-
-        private void fileSystemWatcher3_Changed(object sender, System.IO.FileSystemEventArgs e)
-        {
-
-        }
-
         private void btn_close_Click(object sender, EventArgs e)
         {
             Close();

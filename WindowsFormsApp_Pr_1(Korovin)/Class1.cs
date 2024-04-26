@@ -12,12 +12,12 @@ namespace WindowsFormsApp_Pr_1_Korovin_
         int peopleInHour = 4;
         int a;
 
-        public void MedicalInstitution1(int a)
+        internal void MedicalInstitution1(int a)
         {
             this.a = a;
         }
 
-        public int MakeAnAppointment(int a)
+        internal int MakeAnAppointment(int a)
         {
             int accept;
             if (a > 32)
@@ -30,7 +30,7 @@ namespace WindowsFormsApp_Pr_1_Korovin_
             }
             return accept;
         }
-        public int DoNotMakeAnAppointment(int a)
+        internal int DoNotMakeAnAppointment(int a)
         {
             int notAccept;
             if (a <= 32) notAccept = 0;
