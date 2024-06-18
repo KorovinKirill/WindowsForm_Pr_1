@@ -41,13 +41,13 @@
             this.AboutProgrammMenuTools = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.numberOfPatients = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.notAccept = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.accept = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -158,7 +158,7 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.MistyRose;
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.numberOfPatients);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Location = new System.Drawing.Point(42, 193);
@@ -177,12 +177,12 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "Рабочий день врача                                               8 час";
             // 
-            // textBox1
+            // numberOfPatients
             // 
-            this.textBox1.Location = new System.Drawing.Point(213, 72);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(68, 20);
-            this.textBox1.TabIndex = 2;
+            this.numberOfPatients.Location = new System.Drawing.Point(213, 72);
+            this.numberOfPatients.Name = "numberOfPatients";
+            this.numberOfPatients.Size = new System.Drawing.Size(68, 20);
+            this.numberOfPatients.TabIndex = 2;
             // 
             // label5
             // 
@@ -205,9 +205,9 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.MistyRose;
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.notAccept);
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.accept);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Location = new System.Drawing.Point(357, 193);
             this.groupBox2.Name = "groupBox2";
@@ -216,13 +216,13 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Результат";
             // 
-            // textBox3
+            // notAccept
             // 
-            this.textBox3.Location = new System.Drawing.Point(226, 65);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(68, 20);
-            this.textBox3.TabIndex = 5;
+            this.notAccept.Location = new System.Drawing.Point(226, 65);
+            this.notAccept.Name = "notAccept";
+            this.notAccept.ReadOnly = true;
+            this.notAccept.Size = new System.Drawing.Size(68, 20);
+            this.notAccept.TabIndex = 5;
             // 
             // label8
             // 
@@ -233,13 +233,13 @@
             this.label8.TabIndex = 4;
             this.label8.Text = "Сколько пациентов не принял врач:";
             // 
-            // textBox2
+            // accept
             // 
-            this.textBox2.Location = new System.Drawing.Point(226, 37);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(68, 20);
-            this.textBox2.TabIndex = 3;
+            this.accept.Location = new System.Drawing.Point(226, 37);
+            this.accept.Name = "accept";
+            this.accept.ReadOnly = true;
+            this.accept.Size = new System.Drawing.Size(68, 20);
+            this.accept.TabIndex = 3;
             // 
             // label7
             // 
@@ -358,12 +358,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox numberOfPatients;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox accept;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox notAccept;
         private System.Windows.Forms.ToolStripMenuItem рассчитатьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem программаРасчётыToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator Razdelenie;
